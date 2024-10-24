@@ -13,5 +13,7 @@ function criacartao(categoria, pergunta, resposta) {
     </div>
 </div >
         `
+            let respostaEstaVisivevl = 
+
     container.appendChild(cartao);
 }
