@@ -8,13 +8,25 @@
 }
 body{
     background-color: var(--fundo);
+    margin: 0;
 }
 
 footer{
-    position: absolute;
+    position: flex;
     bottom: 0;
     background-color: var(--preto);
     color: var(--branco);
 width: 100%;
 text-align: center;
+}
+
+#container{
+    padding: 2rem;
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+.cartao{
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
 }
