@@ -13,7 +13,9 @@ function criacartao(categoria, pergunta, resposta) {
     </div>
 </div >
         `
-            let respostaEstaVisivevl = 
-
+            let respostaEstaVisivevl = false;
+            function viraCartao(){
+                respostaEstaVisivevl = !respostaEstaVisivevl;
+            }
     container.appendChild(cartao);
 }
