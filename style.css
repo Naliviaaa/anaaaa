@@ -40,6 +40,8 @@ footer {
     heingth: 100%;
     color: var(--branco);
     text-aling: center;
+    transform-style: preserve-3d;
+    transation: transform 300ms ease-in-out;
 }
 
 .conteudo-cartao h3{
