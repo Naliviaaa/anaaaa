@@ -37,7 +37,7 @@ footer {
 
 .conteudo-cartao{
     background-color: var(--cor-frente);
-    heingth: 100%
+    heingth: 100%;
     color: var(--branco);
     text-aling: center;
 }
@@ -59,7 +59,7 @@ footer {
 }
 
 .cartao:hover .conteudo-cartao{
-    transform: rotateY(180deg)
+    transform: rotateY(180deg);
 }
 
 .pergunta-cartao, .resposta-cartao{
