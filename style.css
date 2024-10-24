@@ -37,11 +37,11 @@ footer {
 
 .conteudo-cartao{
     background-color: var(--cor-frente);
-    heingth: 100%;
+    height: 100%;
     color: var(--branco);
-    text-aling: center;
+    text-align: center;
     transform-style: preserve-3d;
-    transation: transform 300ms ease-in-out;
+    transition: transform 300ms ease-in-out;
 }
 
 .conteudo-cartao h3{
