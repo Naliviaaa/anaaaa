@@ -37,3 +37,13 @@ footer {
     display: grid;
     gap: 4rem;
 }
+
+.cartao{
+    background-color: var(--cor-frente);
+    color: var(--branco);
+    padding: 40px;
+}
+
+.cartao:hover{
+    transform: scale(1.04));
+}
